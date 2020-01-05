@@ -23,5 +23,11 @@ class SwapCharsTest {
 		
 	} //close 1 char test
 	
+	@Test
+	void swapsEmptyString() {
+		assertEquals("",SwapChars.swap2(""));  
+		
+	} //close empty test
+	
 	
 } //class
