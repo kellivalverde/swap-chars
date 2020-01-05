@@ -10,12 +10,11 @@ class SwapCharsTest {
 		
 		
 	} //void swap2
-
+	@Test
 	void swapsStringsWith6Chars() {
-		assertEquals("AB",SwapChars.swap2("BA"));  // didn't make SwapChars2 yet --> fail -> makes a new method
+		assertEquals("fe",SwapChars.swap2("abcdef"));  
 		
-		
-	
+	}
 	
 	
 } //class
